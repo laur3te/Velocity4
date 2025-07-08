@@ -1,4 +1,4 @@
-# Velocity4 - Sistema de Gestão Empresarial
+# Velocity4
 
 ![Next.js](https://img.shields.io/badge/Next.js-15.3.3-black?style=flat-square&logo=next.js)
 ![React](https://img.shields.io/badge/React-19.0.0-blue?style=flat-square&logo=react)
