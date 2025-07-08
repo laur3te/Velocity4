@@ -7,24 +7,24 @@
 
 ## ✨ Funcionalidades
 
-### 🏠 **Gestão de Alojamentos**
+### **Gestão de Alojamentos**
 - Cadastro de propriedades e repúblicas
 - Listagem e visualização de alojamentos
 - Validação de endereços via CEP
 - Interface para gerenciamento
 
-### 👥 **Gestão de Funcionários**
+### **Gestão de Funcionários**
 - Cadastro de funcionários
 - Validação de CPF
 - Formulários estruturados e validados
 
-### 🚗 **Gestão de Veículos**
+### **Gestão de Veículos**
 - Cadastro de frota
 - Suporte a veículos de passageiros e carga
 - Validação de placas
 - Categorização por tipo de veículo
 
-### 🎨 **Interface Moderna**
+### **Interface Moderna**
 - Design responsivo e moderno
 - Componentes reutilizáveis com shadcn/ui
 
@@ -46,13 +46,7 @@
 - **shadcn/ui** - Sistema de componentes
 - **Lucide React** - Ícones modernos
 - **Sonner** - Sistema de notificações toast
-- **class-variance-authority** - Gerenciamento de variantes CSS
-
-### Utilitários
-- **clsx** & **tailwind-merge** - Manipulação de classes CSS
-- **next-themes** - Suporte a temas
-- **embla-carousel-react** - Componente de carrossel
-
+- 
 ## 📁 Estrutura do Projeto
 
 ```
@@ -129,35 +123,3 @@ pnpm dev
   "lint": "next lint"          # Executa linting do código
 }
 ```
-
-## 🏗️ Build e Deploy
-
-### Build de Produção
-```bash
-npm run build
-npm start
-```
-
-## 🎯 Funcionalidades Detalhadas
-
-### Cadastro de Veículos
-- **Tipos suportados**: Transporte de passageiros e carga
-- **Capacidades dinâmicas**: Baseadas no tipo de veículo selecionado
-- **Feedback visual**: Notificações de sucesso/erro em tempo real
-
-### Sistema de Validação
-- **CPF**: Validação completa com dígitos verificadores
-- **CEP**: Integração com serviços de busca de endereço
-- **Formulários**: Validação em tempo real com feedback imediato
-
-### Interface Responsiva
-- **Cards informativos**: Layout organizado e intuitivo
-- **Navegação fluida**: Transições suaves entre páginas
-
-## 🤝 Contribuição
-
-1. Faça um fork do projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/nova-feature`)
-3. Commit suas mudanças (`git commit -m 'Adiciona nova feature'`)
-4. Push para a branch (`git push origin feature/nova-feature`)
-5. Abra um Pull Request
